@@ -1,0 +1,27 @@
+a
+{
+	text-decoration:none;
+}
+body
+{
+	font-size:60;
+	background-color:pink;
+	text-decoration:none;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+div.p
+{
+  text-indent: 50px;
+	font-size:60;
+}
+div.m
+{
+  text-indent: 50em;
+	font-size=300;
+}
+div.v
+{
+  text-indent: 50em;
+	font-size=100;
+}
+

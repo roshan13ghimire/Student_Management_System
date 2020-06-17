@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>ID</title>
+<style>
+body{
+	background-color:pink;
+}
+table,th,td{
+	border:2px solid black;
+	width:1100px;
+	background-color: lightgreen;
+}
+.btn{
+	width:10%;
+	height: 5%;
+	font-size: 22px;
+	padding: 0px;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>ENTER THE REGISTRARION NUMBER<h1>
+<div class="container">
+<form action="" method="POST">
+<input type="text" name="registration_no" class="btn" placeholder="ENTER ID"/>
+<input type="submit" name="view"  class="btn" value="view">
+</form>
+
+<br>
+<br>
+<h4><font color="blue">Verify all the details and kindly insert your photo</h4></font>
+<form method="POST" enctype="multipart/form-data">
+<input type="file" name="image">
+<input type="submit" value="Upload">
+</form>
+<h4>Click  <a href="make_id.php">here</a>  to make id card<h4>
+</center>
+</div>
+</body>
+</html>

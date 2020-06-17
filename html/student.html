@@ -1,0 +1,56 @@
+<html>
+<head>
+<script>
+function validate()
+{
+var x = document.forms["myForm"]["uname"].value;
+var y = document.forms["myForm"]["pwd"].value;
+  if (x == "" || y=="") {
+    alert("ENTER USERNAME AND PASSWORD!");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<title>DBMS_PROJECT
+</title>
+<link rel='stylesheet' type='text/css' href='css.css'>
+</head>
+<body style="background-color:powderblue"><div id="1" align="center" bgcolor="blue">
+<font size="5" color="black"><h1><marquee>Student Management Software</marquee></h1></div>
+<center><img src="logo.jpg" width="70%" height="30%"></center>
+<div>
+<table width="70%">
+<tr>
+<td>&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp</td>
+</tr>
+
+</table>
+</div>
+<div>
+
+
+<table width="100%">
+<tr>
+<td>
+<a href="home.html">HOME</a><br><br>
+<a href="Admin.html">ADMINISTRATION</a><br><br>
+<a href="Student.html">STUDENT</a><br><br>
+<a href="About.html">About</a><br><br>
+<a href="contact.html">Contact</a><br><br>
+</td>
+<td><h2>Student Login</h2>
+<form name="myForm" action="viewdetails.php" method="POST" onsubmit="return validate()">
+Username:<input type="text" name="uname" id="uname" placeholder="User-Name"><br><br>
+Password:<input type="password" name="pwd" id="pwd" placeholder="Password"> <br><br>
+<input type="submit" value="LOGIN">
+<input type="reset" value="RESET"> 
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
